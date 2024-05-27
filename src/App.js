@@ -140,7 +140,7 @@ const App = () => {
         </div>
       )}
       {showLegend && (
-        <div className="controls bg-zinc-950 text-white rounded-l-xl border-t border-zinc-900 absolute md:top-56 bottom-72 right-0 p-4 flex flex-col sm:block">
+        <div className="controls bg-zinc-950 text-white rounded-l-xl border-t border-zinc-900 absolute sm:top-56 top-[48%] right-0 p-4 flex flex-col sm:block">
           Legendă:
           <div className="flex mt-3 text-md text-zinc-600 sm:w-[300px] w-[350px] text-left">
             Probabilitatea de a găsi electronul într-un anumit punct
