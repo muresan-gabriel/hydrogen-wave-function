@@ -243,13 +243,6 @@ export const WaveFunction = ({
         colors[i * 4 + 3] = 1.0; // Fully opaque
       }
 
-      if (colorSet === "blackOrange") {
-        colors[i * 4] = intensity;
-        colors[i * 4 + 1] = intensity / 2;
-        colors[i * 4 + 2] = 0;
-        colors[i * 4 + 3] = 1.0; // Fully opaque
-      }
-
       if (colorSet === "greenTransparency") {
         colors[i * 4] = 0;
         colors[i * 4 + 1] = intensity; // Higher intensity means green
